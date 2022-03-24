@@ -1,0 +1,23 @@
+{
+    "name": "15-db1022la/app-salon_php_mvc_js_sass",
+    "description": "proyecto con mvc, gulp, sass, php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\": "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fran",
+            "email": "fran@fran.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
