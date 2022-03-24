@@ -5,4 +5,5 @@ appsalon_mvc.mwb
 package-lock.json
 package.json
 .env
-gulpfile.json
+gulpfile.js
+.DS_Store
